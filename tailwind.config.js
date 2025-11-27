@@ -1,6 +1,5 @@
 import defaultTheme from 'tailwindcss/defaultTheme';
 import forms from '@tailwindcss/forms';
-import daisyui from 'daisyui';    // ⬅ IMPORTANTE: esta línea
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -8,7 +7,6 @@ export default {
         './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
         './storage/framework/views/*.php',
         './resources/views/**/*.blade.php',
-        './resources/js/**/*.js',
     ],
 
     theme: {
@@ -19,12 +17,5 @@ export default {
         },
     },
 
-    plugins: [
-        forms,
-        daisyui,   // ⬅ ahora ya está importado arriba
-    ],
-
-    daisyui: {
-        themes: ['light', 'dark', 'corporate'],
-    },
+    plugins: [forms],
 };
