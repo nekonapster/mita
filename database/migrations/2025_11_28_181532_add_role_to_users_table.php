@@ -9,7 +9,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->string('rol')
+            $table->string('role')
                   ->default('coordinador')
                   ->after('email'); // o donde prefieras
         });
@@ -18,7 +18,7 @@ return new class extends Migration
     public function down(): void
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->dropColumn('rol');
+            $table->dropColumn('role');
         });
     }
 };
