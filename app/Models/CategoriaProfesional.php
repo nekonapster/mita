@@ -9,6 +9,7 @@ class CategoriaProfesional extends Model
 {
     use HasFactory;
 
+    protected $table = 'categorias_profesionales';
 
     protected $fillable = [
         'nombre',
