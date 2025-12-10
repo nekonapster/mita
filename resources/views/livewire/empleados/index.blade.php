@@ -1,4 +1,4 @@
-        <div class="card bg-base-100 shadow">
+        <div class="card bg-base-100 shadow" data-theme="luxury">
             <div class="card-body space-y-4">
 
                 @if (session('status'))
