@@ -15,48 +15,7 @@
       </div>
     </div>
     <div class="relative h-full flex-1 overflow-hidden rounded-xl border border-neutral-200 dark:border-neutral-700">
-       @livewire('empleados.index')
+      @livewire('empleados.index')
     </div>
-
-    <div class="flex justify-between">
-      <div class="card  w-96 shadow-sm">
-        <figure>
-          <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" alt="Shoes" />
-        </figure>
-        <div class="card-body">
-          <h2 class="card-title text-black">Card Title</h2>
-          <p class="text-black">A card component has a figure, a body part, and inside body there are title and actions
-            parts</p>
-            <div class="card-actions justify-end">
-              <button class="btn btn-primary">Buy Now</button>
-            </div>
-          </div>
-        </div>
-      <div class="card  w-96 shadow-sm">
-        <figure>
-          <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" alt="Shoes" />
-        </figure>
-        <div class="card-body">
-          <h2 class="card-title text-black">Card Title</h2>
-          <p class="text-black">A card component has a figure, a body part, and inside body there are title and actions
-            parts</p>
-            <div class="card-actions justify-end">
-              <button class="btn btn-primary">Buy Now</button>
-            </div>
-          </div>
-        </div>
-      <div class="card  w-96 shadow-sm">
-        <figure>
-          <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" alt="Shoes" />
-        </figure>
-        <div class="card-body">
-          <h2 class="card-title text-black">Card Title</h2>
-          <p class="text-black">A card component has a figure, a body part, and inside body there are title and actions
-            parts</p>
-            <div class="card-actions justify-end">
-              <button class="btn btn-primary">Buy Now</button>
-            </div>
-          </div>
-        </div>
-      </div>
+  </div>
 </x-layouts.app>
