@@ -1,4 +1,4 @@
-        <div class="card bg-base-100 shadow" data-theme="luxury">
+        <div class="card bg-base-100 shadow">
             <div class="card-body space-y-4">
 
                 @if (session('status'))
@@ -19,15 +19,15 @@
 
                 <!-- FORMULARIO -->
                 <form wire:submit.prevent="save" class="space-y-4">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4" >
 
                         <label class="form-control">
                             <span class="label-text">Nombre *</span>
                             <input type="text" class="input input-bordered" wire:model.defer="nombre">
                         </label>
 
-                        <label class="form-control">
-                            <span class="label-text">Apellidos *</span>
+                        <label class="form-control" >
+                            <span class="label-text" >Apellidos *</span>
                             <input type="text" class="input input-bordered" wire:model.defer="apellidos">
                         </label>
 
